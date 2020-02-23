@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>plant monitoring</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w.min.css">
+  <script src="jquery.min.js"></script>
+  <script src = "chart.min.js"></script>	
+  <link rel="stylesheet" href="style.css">
+  
+<body>
+  <div class="chart-container" position: relative; height:350px; width:100%>
+    <canvas id="Chart" width="400" height="400" ></canvas>
+</div>
+    
+<div class="w3-row w3-container" style="margin:50px 0">
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-amber">
+    <div id="speedometer" style="float: left;"></div >
+  </div>
+</div>
+
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-amber">
+    <div>
+      
+      <table id="dataTable">
+        <tr><th>Time</th>
+          <th>KELEMBAPAN</th>
+          <th>SUHU </th>
+          <th>HUMI(&deg;C)</th>
+          <th>GAS</th>
+          <th>RED</th>
+          <th>GREEN</th>
+          <th>BLUE</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+<script type="text/javascript" src="d3.vs.js"></script>
+<script type="text/javascript" src="viz.min.js"></script>
+<script src="chart.js"></script>
+
+
+</body>
+</html>
